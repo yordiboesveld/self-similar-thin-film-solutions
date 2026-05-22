@@ -21,7 +21,13 @@ where $u(x,t)$ denotes the film height and $n>0$ is the mobility exponent.
 The solution is expected to have the self-similar form 
 
 $$
-u(x,t) = t^{-\alpha}f(\mu), \qquad \mu = xt^{-\alpha}, \qquad \alpha=\frac{1}{n+4}.
+u(x,t)
+=
+t^{-\alpha}f(\mu),
+\qquad
+\mu = xt^{-\alpha},
+\qquad
+\alpha=\frac{1}{n+4}.
 $$
 
 Substituting this into the thin-film equation reduces the PDE to the nonlinear ODE
@@ -36,19 +42,27 @@ $$
 Exploiting the scaling properties of the equation and rescaling the variables reduces the ODE to
 
 $$
-\begin{cases}
-u^{n-1}u^{\prime\prime\prime} = x,
-& u>0,
-\quad 0<x<a,
+\begin{aligned}
+u^{n-1}u'''
+&=
+x,
+\qquad
+u>0,
+\qquad
+0<x<a,
 \\
-u(0)=1,
-\quad
-u^\prime(0)=0,
+u(0)
+&=
+1,
+\qquad
+u'(0)=0,
 \\
-u(a)=0,
-\quad
-u^\prime(a)=0.
-\end{cases}
+u(a)
+&=
+0,
+\qquad
+u'(a)=0.
+\end{aligned}
 $$
 
 The solution is symmetric and strictly decreasing on the interval $0<x<a$. A nontrivial compactly supported solution exists and is unique only for $0<n<3$.
@@ -71,21 +85,17 @@ must be determined simultaneously.
 To overcome this difficulty, the nonlinear boundary value problem is reformulated as a shooting problem. Instead of prescribing the free boundary location $a$, we prescribe an initial curvature parameter $\gamma$ and solve the corresponding initial value problem
 
 $$
-u^{n-1}\frac{d^3u}{dx^3}=x,
-\qquad u>0,
-\qquad 0<x<a
-$$
-
-$$
+\begin{cases}
+u''' = xu^{1-n},
+& u>0,
+\qquad x>0,
+\\
 u(0)=1,
 \qquad
-\frac{du}{dx}(0)=0
-$$
-
-$$
-u(a)=0,
+u'(0)=0,
 \qquad
-\frac{du}{dx}(a)=0
+u''(0)=-\gamma,
+\end{cases}
 $$
 
 where $\gamma>0$ is the shooting parameter.
