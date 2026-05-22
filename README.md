@@ -37,8 +37,7 @@ Exploiting the scaling properties of the equation and rescaling the variables re
 
 $$
 u^{n-1}u'''=x,
-\qquad u>0,
-\qquad 0<x<a
+\qquad u>0, \qquad 0<x<a
 $$
 
 $$
