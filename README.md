@@ -71,17 +71,21 @@ must be determined simultaneously.
 To overcome this difficulty, the nonlinear boundary value problem is reformulated as a shooting problem. Instead of prescribing the free boundary location $a$, we prescribe an initial curvature parameter $\gamma$ and solve the corresponding initial value problem
 
 $$
-\begin{cases}
-u''' = xu^{1-n},
-& u>0,
-\qquad x>0,
-\\
+u^{n-1}\frac{d^3u}{dx^3}=x,
+\qquad u>0,
+\qquad 0<x<a
+$$
+
+$$
 u(0)=1,
 \qquad
-u'(0)=0,
+\frac{du}{dx}(0)=0
+$$
+
+$$
+u(a)=0,
 \qquad
-u''(0)=-\gamma,
-\end{cases}
+\frac{du}{dx}(a)=0
 $$
 
 where $\gamma>0$ is the shooting parameter.
