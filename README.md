@@ -37,25 +37,9 @@ Exploiting the scaling properties of the equation and rescaling the variables re
 
 $$
 \begin{aligned}
-u^{n-1}u'''
-&=
-x,
-\qquad
-u>0,
-\qquad
-0<x<a,
-\\
-u(0)
-&=
-1,
-\qquad
-u'(0)=0,
-\\
-u(a)
-&=
-0,
-\qquad
-u'(a)=0.
+u^{n-1}u''' &= x, \qquad u>0, \qquad 0<x<a, \\
+u(0) &= 1, \qquad u'(0)=0, \\
+u(a) &= 0, \qquad u'(a)=0.
 \end{aligned}
 $$
 
