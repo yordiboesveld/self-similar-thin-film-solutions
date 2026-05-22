@@ -21,13 +21,7 @@ where $u(x,t)$ denotes the film height and $n>0$ is the mobility exponent.
 The solution is expected to have the self-similar form 
 
 $$
-u(x,t)
-=
-t^{-\alpha}f(\mu),
-\qquad
-\mu = xt^{-\alpha},
-\qquad
-\alpha=\frac{1}{n+4}.
+u(x,t) = t^{-\alpha}f(\mu), \qquad \mu = xt^{-\alpha}, \qquad \alpha=\frac{1}{n+4}.
 $$
 
 Substituting this into the thin-film equation reduces the PDE to the nonlinear ODE
@@ -43,25 +37,18 @@ Exploiting the scaling properties of the equation and rescaling the variables re
 
 $$
 \begin{aligned}
-u^{n-1}u'''
-&=
-x,
-\qquad
-u>0,
-\qquad
-0<x<a,
+u^{n-1}u^{\prime\prime\prime}
+&= x,
+\qquad u>0,
+\qquad 0<x<a,
 \\
 u(0)
-&=
-1,
-\qquad
-u'(0)=0,
+&= 1,
+\qquad u^\prime(0)=0,
 \\
 u(a)
-&=
-0,
-\qquad
-u'(a)=0.
+&= 0,
+\qquad u^\prime(a)=0.
 \end{aligned}
 $$
 
