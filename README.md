@@ -21,13 +21,7 @@ where $u(x,t)$ denotes the film height and $n>0$ is the mobility exponent.
 The solution is expected to have the self-similar form 
 
 $$
-u(x,t)
-=
-t^{-\alpha}f(\mu),
-\qquad
-\mu = xt^{-\alpha},
-\qquad
-\alpha=\frac{1}{n+4}.
+u(x,t) = t^{-\alpha}f(\mu), \qquad \mu = xt^{-\alpha}, \qquad \alpha=\frac{1}{n+4}.
 $$
 
 Substituting this into the thin-film equation reduces the PDE to the nonlinear ODE
