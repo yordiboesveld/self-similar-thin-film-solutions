@@ -36,7 +36,7 @@ $$
 Exploiting the scaling properties of the equation and rescaling the variables reduces the ODE to
 
 $$
-u^{n-1}\frac{d^3u}{dx^3}=x,
+u^{n-1}u'''=x,
 \qquad u>0,
 \qquad 0<x<a
 $$
@@ -44,13 +44,13 @@ $$
 $$
 u(0)=1,
 \qquad
-\frac{du}{dx}(0)=0
+u'(0)=0
 $$
 
 $$
 u(a)=0,
 \qquad
-\frac{du}{dx}(a)=0
+u'(a)=0
 $$
 
 The solution is symmetric and strictly decreasing on the interval $0<x<a$. A nontrivial compactly supported solution exists and is unique only for $0<n<3$.
