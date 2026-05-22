@@ -1,6 +1,12 @@
 # Self-Similar Solutions to the Thin-Film Equation
 
-This notebook investigates the numerical construction of self-similar source-type solutions to the one-dimensional thin-film equation. The thin-film equation describes how a fluid that is very thin in height compared to the length travels over time on a one-dimensional flat solid surface. We consider the source-type thin-film equation
+This notebook investigates the numerical construction of self-similar source-type solutions to the one-dimensional thin-film equation. The thin-film equation describes how a fluid that is very thin in height compared to the length travels over time on a one-dimensional flat solid surface. This project was developed as part of my bachelor thesis at TU Delft.
+
+- [Self-Similar Solutions to the Thin-Film Equation](thesis/Bachelor_Thesis_Yordi_Boesveld.pdf)
+
+## Problem
+
+We consider the source-type thin-film equation
 
 $$
 \begin{aligned}
@@ -98,13 +104,6 @@ The correct value of $\gamma$ is determined using a bisection-based shooting pro
 
 The interval $[\gamma_+,\gamma_-]$ is repeatedly refined until the critical value of $\gamma$ producing the desired compactly supported self-similar solution is obtained.
 
-<br>
-<br>
-
-This project was developed as part of my bachelor thesis at TU Delft.
-
-- [Self-Similar Solutions to the Thin-Film Equation](thesis/Bachelor_Thesis_Yordi_Boesveld.pdf)
-
 ## Implemented Methods
 
 - Shooting method for the nonlinear free-boundary problem
@@ -131,6 +130,6 @@ The project was developed and tested using Python 3.12. Install the required pac
 
 Open the notebook:
 
-jupyter notebook notebooks/helmholtz_iterative_solvers.ipynb
+jupyter notebook notebooks/self-similar-thin-film-solutions.ipynb
 
 Run all notebook cells sequentially to reproduce the numerical experiments and self-similar solution figures.
