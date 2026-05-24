@@ -102,7 +102,7 @@ The correct value of $\gamma$ is determined using a bisection-based shooting pro
 - $\gamma_-$ produces a solution for which there exists a point $b$ satisfying $u(b)=0$ and $u'(b)<0$,
 - $\gamma_+$ produces a solution for which there exists a point $b$ satisfying $u(b)>0$ and $u'(b)=0$.
 
-The interval $[\gamma_+,\gamma_-]$ is repeatedly refined until the critical value of $\gamma$ producing the desired compactly supported self-similar solution is obtained.
+The interval $[\gamma_+,\gamma_-]$ is repeatedly refined until the critical value of $\gamma$ producing the desired compactly supported self-similar solution is obtained. Afterwards, the solution is rescaled back to the original self-similar solution.
 
 ## Implemented Methods
 
